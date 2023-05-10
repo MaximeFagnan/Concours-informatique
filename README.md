@@ -11,11 +11,11 @@ Le but est d'aider les étudiants du collège Jean-de-Brébeuf à se préparer a
 * [Concours canadien d'informatique][CCI]
 * [Olympiade américaine de programmation][USACO] (4 concours)
 
-Les étudiants sont libres de choisir à quels concours ils souhaitent participer. Svp communiquer cette information avec Maxime Fagnan **et** le comité BrébeufHx afin que l'on puisse organiser une session de préparation, offrir un espace au collège pour le concours et compter cette participation dans la *Distinction Brébeuf*.
+Les étudiants sont libres de choisir à quels concours ils souhaitent participer. Svp, communiquer cette information avec Maxime Fagnan **et** le comité BrébeufHx afin que l'on puisse organiser une session de préparation, offrir un espace au collège pour le concours et compter cette participation dans la *Distinction Brébeuf*.
 
 ## Méthode
 1. Nous rassemblons plusieurs solutions pour les concours passés.  
-    1. Les étudiants seront invités à soumettre leus solutions à chaque année.  
+    1. Les étudiants seront invités à soumettre leurs solutions chaque année.  
     2. Les professeurs contribueront également à soumettre des solutions pour certains problèmes.  
 2. Nous rassemblons du matériel de préparation aux concours incluant:
     1. Conférences
