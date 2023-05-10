@@ -6,7 +6,7 @@ Le but d'aidé les étudiants du collège Jean-de-Brébeuf à se préparer aux c
 
 ## Quels concours?
 ### 2022-2023:
-* [Concours canadien d'informatique 2023][CCI 2023]
+* [Concours canadien d'informatique 2022-2023][CCI 2023]
 ### 2023-2024
 * [Concours canadien d'informatique][CCI]
 * [Olympiade américaine de programmation][USACO] (4 concours)
