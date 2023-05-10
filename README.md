@@ -1,8 +1,8 @@
-# Concours-informatique
+# Concours-informatique 
 Bienvenu sur le GitHub des concours informatique du collège Jean-de-Brébeuf.
 
 ## But
-Le but d'aidé les étudiants du collège Jean-de-Brébeuf à se préparer aux concours informatiques.
+Le but est d'aider les étudiants du collège Jean-de-Brébeuf à se préparer aux concours informatiques.
 
 ## Quels concours?
 ### 2022-2023:
@@ -11,7 +11,7 @@ Le but d'aidé les étudiants du collège Jean-de-Brébeuf à se préparer aux c
 * [Concours canadien d'informatique][CCI]
 * [Olympiade américaine de programmation][USACO] (4 concours)
 
-Les étudiants sont libres de choisirs à quels concours ils souhaitent participer. Svp communiquer cette information avec Maxime Fagnan **et** le comité BrébeufHx afin que l'on puisse organiser une session de préparation ainsi qu'offrir un espace au collège pour le concours.
+Les étudiants sont libres de choisir à quels concours ils souhaitent participer. Svp communiquer cette information avec Maxime Fagnan **et** le comité BrébeufHx afin que l'on puisse organiser une session de préparation, offrir un espace au collège pour le concours et compter cette participation dans la *Distinction Brébeuf*.
 
 ## Méthode
 1. Nous rassemblons plusieurs solutions pour les concours passés.  
