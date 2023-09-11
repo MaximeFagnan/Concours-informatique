@@ -37,6 +37,7 @@ Les étudiants sont libres de choisir à quels concours ils souhaitent participe
 | Hubert Kouzham      | CCI niveau junior   | Top 25%         |
 | Yue Qian Zhang      | CCI niveau senior   | Top 25%         |
 
+Remerciements spéciaux aux frères Dou (Rupeng et Rukun) pour leurs contributions au GitHub.
 
 [CCI]: https://cemc.uwaterloo.ca/contests/ccc-cco-f.html
 [CCI 2023]: https://cemc.uwaterloo.ca/contests/computing/past_ccc_contests/2023/index-f.html
