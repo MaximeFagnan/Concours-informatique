@@ -1,5 +1,0 @@
-name: mes_notebooks
-channels:
-  - conda-forge
-dependencies:
-  -python =3
