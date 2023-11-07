@@ -45,7 +45,7 @@ y = 1
 coord_a_visiter.append((x,y))
 
 # tant qu'il reste des coordonnées à visiter, explorer la grille
-while len(coord_a_visiter) > 1:
+while len(coord_a_visiter) >= 1:
     x,y = coord_a_visiter.pop()
     n = grille[x][y]
 
