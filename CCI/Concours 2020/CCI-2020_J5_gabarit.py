@@ -14,9 +14,9 @@ grille = [[0,0,0,0,0], [0, 3, 10, 8, 14], [0, 1, 11, 12, 12], [0, 6, 2, 3, 9]]
 # grille[1,4] == 14 # par exemple
 
 # Vous devrez arrangé le code qui suit lorsque votre code sera fonctionnel pour l'exemple:
-# for i in range(1,N+1):
+# for i in range(1,M+1):
 #     ligne_i = input().split()    # ligne_i = ["0", "3", "10", "8", "14"]
-#     for j in range(1,M+1):
+#     for j in range(1,N+1):
 #         grille[i][j] = # à compléter
 
 
