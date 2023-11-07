@@ -2,7 +2,7 @@ M=3  #à modifier plus tard pour prendre le input et le transformer en entier
 N=4  #à modifier plus tard pour prendre le input et le transformer en entier
 
 # Notons que grille[0][j] et grille[i][0] seront 0 pour notre convénience
-grille = [[0]*(N+1) for i in range(N+1)]*(M+1)
+grille = [[0]*(M+1) for i in range(N+1)]
 # pour accéder à l'élément en position (i,j) grille[i][j]
 
 # La grille devrait ressembler à ceci lorsqu'on a terminé (supprimer ces lignes après les tests)
