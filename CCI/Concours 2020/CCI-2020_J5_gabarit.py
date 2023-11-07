@@ -35,7 +35,7 @@ def facteurs(n):
     return l
 
 # cet ensemble contiendra tous les entiers visités dans la grille
-entiers_visites = {}
+entiers_visites = set()
 entiers_visites.add(1) #visiter la case (1,1) est comme avoir encontré l'entier 1 dans la grille
 
 # cette queue (implémenter avec une liste) contient tous coordonnées qui reste a visité.
