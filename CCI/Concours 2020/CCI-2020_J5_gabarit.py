@@ -49,8 +49,9 @@ while len(coord_a_visiter) >= 1:
     x,y = coord_a_visiter.pop()
     n = grille[x][y]
 
+    # 1. A-t-on trouvé un entier qui permet de se rendre à la sortie?
+
     # si l'entier n n'est pas dans les entiers visités
-        # 1. A-t-on trouvé un entier qui permet de se rendre à la sortie?
         # 2. Rajoutons n aux entiers visités
         # 3. Rajoutons tous les factorisations de n à coord_a_visiter
             # utiliser la fonction extend pour rajouter une liste à la liste
