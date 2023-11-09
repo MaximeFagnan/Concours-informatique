@@ -44,8 +44,10 @@ coord_a_visiter.append((x,y))
 
 # tant qu'il reste des coordonnées à visiter, explorer la grille
 while len(coord_a_visiter) >= 1:
-    x,y = coord_a_visiter.pop()
+    x,y = coord_a_visiter.pop(0)
     n = grille[x][y]
+
+    # Peut-on se rendre à la sortie?
     if (n == sortie):
         print("yes")
         exit()
