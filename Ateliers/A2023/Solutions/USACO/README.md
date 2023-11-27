@@ -55,7 +55,7 @@ TASK: nom du problème
 
 > :warning: <span style="color:red"> **Important** </span>
 >
-> L'entrée et la sortie se font par des fichiers déparés.
+> L'entrée et la sortie se font par des fichiers séparés.
 
 Le code soumis doit lire l'entrée dans un fichier appelé ***nom du problème.in*** et écrire le résultat dans un fichier nommé ***nom du problème.out***.
 
