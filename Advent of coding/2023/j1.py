@@ -1,5 +1,5 @@
 import re
-nom_de_fichier = "Advent of coding\\2023\q1.in"
+nom_de_fichier = "Advent of coding\\2023\j1.in"
 
 # Partie 1
 sum = 0
