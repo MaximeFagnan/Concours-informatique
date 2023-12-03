@@ -2,9 +2,9 @@
 # Ateliers de programmation
 Dans ce dossier, vous retrouverez les présentations utilisés et les solutions en code des problèmes présentés pour les ateliers de programmation donnés.
 
-## Ateliers de programmation 2023
+## Ateliers de programmation automne 2023
 
-En 2023, 5 ateliers de programmation ont été organisés par Maxime Fagnan, en collaboration avec le comité BrébeufHx. Leur but était de préparer les étudiants aux compétitions de programmation [CCI](https://www.cemc.uwaterloo.ca/contests/ccc-cco.html) et [USACO](http://www.usaco.org/index.php).
+En automne 2023, 5 ateliers de programmation ont été organisés par Maxime Fagnan, en collaboration avec le comité BrébeufHx. Leur but était de préparer les étudiants aux compétitions de programmation [CCI](https://www.cemc.uwaterloo.ca/contests/ccc-cco.html) et [USACO](http://www.usaco.org/index.php).
 
 #### Ateliers CCI
 
