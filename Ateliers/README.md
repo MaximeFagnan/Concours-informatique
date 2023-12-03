@@ -15,7 +15,7 @@ En 2023, 5 ateliers de programmation ont été organisés par Maxime Fagnan, en 
 #### Ateliers USACO
 
 **22 novembre** : Introduction à USACO (BrébeufHx) <br>
-**29 novembre** : Analyse d'une question de USACO (Maxime Fagnan) <br>
+**29 novembre** : Analyse d'une question de USACO (Maxime Fagnan) (ANNULÉ) <br>
 
 ## Inscriptions
 
