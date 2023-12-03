@@ -6,8 +6,8 @@ LANG: PYTHON3
 TASK: gift1
 """
 #On collecte le input
-fin = open ('USACO\gift1.in', 'r')
-fout = open ('USACO\gift1.out', 'w')
+fin = open ('USACO\USACO_training\gift1.in', 'r')
+fout = open ('USACO\USACO_training\gift1.out', 'w')
 nb_persons = int(fin.readline())
 
 persons = []
