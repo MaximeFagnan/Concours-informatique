@@ -1,7 +1,5 @@
 # Advent of code
 
-# Advent of Code Solutions
-
 Bienvenue dans le dossier des solutions de l'Advent of Code! Chaque jour de décembre, nous résolvons une énigme de programmation proposée sur le [site officiel de l'Advent of Code](https://adventofcode.com/). C'est une excellente opportunité pour renforcer vos compétences en algorithmique, explorer de nouveaux concepts et construire une routine quotidienne d'apprentissage.
 
 ## Comment ça marche ?
