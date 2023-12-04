@@ -63,6 +63,7 @@ for row,col in stars:
             if i==row and j==col: continue # This is the star itself
             if numbers.get((i,j)) :
                 adjacent_numbers.add(numbers.get((i,j)))
+                #note that this wouldn't work if there were duplicates of a number around the same star
 
     if len(adjacent_numbers) == 2:
         soln += adjacent_numbers.pop() * adjacent_numbers.pop()
