@@ -1,6 +1,6 @@
 # Advent of code
 
-Bienvenue dans le dossier des solutions de l'Advent of Code! Chaque jour de décembre, nous résolvons une énigme de programmation proposée sur le [site officiel de l'Advent of Code](https://adventofcode.com/). C'est une excellente opportunité pour renforcer vos compétences en algorithmique, explorer de nouveaux concepts et construire une routine quotidienne d'apprentissage.
+Bienvenue dans le dossier des solutions de l'Advent of Code! Chaque jour de décembre, je vous invite à résoudre une énigme de programmation proposée sur le [site officiel de l'Advent of Code](https://adventofcode.com/). C'est une excellente opportunité pour renforcer vos compétences en algorithmique, explorer de nouveaux concepts et construire une routine quotidienne d'apprentissage.
 
 ## Comment ça marche ?
 
@@ -18,10 +18,10 @@ Bienvenue dans le dossier des solutions de l'Advent of Code! Chaque jour de déc
 ## Comment participer ?
 
 1. Inscrivez-vous sur le [site officiel de l'Advent of Code](https://adventofcode.com/).
-2. Clonez ce dépôt pour avoir une copie locale des solutions.
+2. Clonez ce dépôt pour avoir une copie locale des solutions si vous le souhaiter.
 3. Explorez les différentes énigmes et solutions.
 4. N'hésitez pas à discuter, poser des questions ou partager vos propres solutions en ouvrant une issue ou en contribuant directement au dépôt.
 
-C'est une opportunité continue d'apprentissage, alors n'hésitez pas à participer et à profiter de cette expérience!
+C'est une opportunité continue d'apprentissage, alors n'hésitez pas à participer et à profiter de cette expérience (votre participation à Advent of Code n'est pas limité au mois de décembre de chaque année)!
 
 Bon coding! 🚀
