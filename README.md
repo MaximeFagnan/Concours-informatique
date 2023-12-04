@@ -37,7 +37,7 @@ Les étudiants sont libres de choisir à quels concours ils souhaitent participe
 | Rupeng Dou          | CCI niveau junior   | 75/75           |
 | Hubert Kouzham      | CCI niveau junior   | Top 25%         |
 
-Remerciements spéciaux aux frères Dou (Rupeng et Rukun) pour leurs contributions au GitHub.
+Remerciements spéciaux aux frères Dou (Rupeng et Rukun), à Yue Qian Zhang et à Émile Gobeil pour leurs contributions au GitHub.
 
 [CCI]: https://cemc.uwaterloo.ca/contests/ccc-cco-f.html
 [CCI 2023]: https://cemc.uwaterloo.ca/contests/computing/past_ccc_contests/2023/index-f.html
