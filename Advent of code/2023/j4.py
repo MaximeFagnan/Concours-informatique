@@ -26,7 +26,7 @@ with open(nom_de_fichier, "r") as f:
         win_nums = set(map(int, re.findall("[0-9]+", win_nums)[1:])) # remove card number
         my_nums = set(map(int, re.findall("[0-9]+", my_nums)))
         my_wins = my_nums.intersection(win_nums)
-        for j in range(len(my_wins)):
+        for j,win in enumerate(my_wins):
             num_cards_won[i+j+1] += num_cards_won[i]
 
 soln = sum(num_cards_won)
