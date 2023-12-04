@@ -32,10 +32,10 @@ Les étudiants sont libres de choisir à quels concours ils souhaitent participe
 #### 2022-2023
 | Étudiants           | Concours            | Distinction     |
 | :------------------ | :------------------ | :-------------- |
+| Yue Qian Zhang      | CCI niveau senior   | Top 25%         |
 | Rukun Dou           | CCI niveau junior   | 75/75           |
 | Rupeng Dou          | CCI niveau junior   | 75/75           |
 | Hubert Kouzham      | CCI niveau junior   | Top 25%         |
-| Yue Qian Zhang      | CCI niveau senior   | Top 25%         |
 
 Remerciements spéciaux aux frères Dou (Rupeng et Rukun) pour leurs contributions au GitHub.
 
