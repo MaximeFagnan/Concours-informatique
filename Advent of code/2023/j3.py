@@ -61,8 +61,9 @@ for row,col in stars:
     for i in range(row-1,row+2):
         for j in range(col-1, col+2):
             if i==row and j==col: continue # This is the star itself
-            if numbers.get((i,j)) :
-                adjacent_numbers.add(numbers.get((i,j)))
+            number = numbers.get((i,j)) # None if there is no number at those coords.
+            if number :
+                adjacent_numbers.add(number)
                 #note that this wouldn't work if there were duplicates of a number around the same star
 
     if len(adjacent_numbers) == 2:
