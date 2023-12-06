@@ -1,7 +1,3 @@
-import re
-import math
-import sys
-
 nom_de_fichier = "Advent of code\\2023\\j5.in" 
 
 # info format: (the destination range start, the source range start, and the range length)
@@ -11,44 +7,63 @@ nom_de_fichier = "Advent of code\\2023\\j5.in"
 
 # Structure de donnée
 
+class Conversion_rule:
+    """
+    source and dest ranges
+    """
+    source: range
+    dest: range
 
-class Conversion_value:
-    d=0
-    s=0
-    r=0
-
-    def __init__(self,conv_strings) -> None:
-        parsed_string = list(map(int,conv_strings))
-        self.d = parsed_string[0]
-        self.s = parsed_string[1]
-        self.r = parsed_string[2]
+    def __init__(self, conv_string) -> None:
+        #Parses an input_string: (d: dest int, s: source int, r: range length int)
+        #into source and destination ranges
+        parsed_string = list(map(int,conv_string))
+        d = parsed_string[0]
+        s = parsed_string[1]
+        r = parsed_string[2]
+        self.source = range(s, s + r)
+        self.dest = range(d, d + r)
 
     def __str__(self) -> str:
         return (self.d,self.s,self.r)
 
 class Conversion_map:
-    nom = ""
+    """
+    conversion map from x-to-y
     
+    Example:
+    name: "seed-to-soil"
+    __conversion_rules = {
+        range(98,100) : range(50,52)
+        range(50,98)  : range(52,100)
+    }
+
+    convert(63) -> 65    # with 2nd rule
+    convert(7)  -> 7     # because there is no rule for 7
+    """
+    
+    nom = "" # fluff and testing
     __conversion_rules = dict()
     
     def __init__(self) -> None:
         self.__conversion_rules = dict()
         pass
 
+    # fluff and testing
     def name(self, bla_to_blabla):
         self.nom = bla_to_blabla
     
-    def add_conversion(self,conv_strings):
-        c_value = Conversion_value(conv_strings)
-        self.__conversion_rules[range(c_value.s,c_value.s + c_value.r)] = range(c_value.d, c_value.d + c_value.r)
+    def add_conversion(self,conv_string):
+        rule = Conversion_rule(conv_string)
+        self.__conversion_rules[rule.source] = rule.dest
     
-    def find_conversion_rule(self, x: int) :
+    def find_conversion_rule(self, x: int) -> tuple[range,range] :
         """for a given value of x, find conversion rule in __conversions dict
         """
         for r_s,r_d in self.__conversion_rules.items():
             if x in r_s: 
                 return (r_s,r_d)
-        return None
+        return (range(x, x+1),range(x,x+1))
 
     def convert(self, x: int) -> int:
         """Convert a value following the map
@@ -59,16 +74,13 @@ class Conversion_map:
         Returns:
             int: conversion following the conversion map
         """
-        rule = self.find_conversion_rule(x)
-        if rule:
-            r_s = rule[0]
-            r_d = rule[1]
-            y = r_d.start + (x-r_s.start)
-            return y
-        return x
+        r_s, r_d = self.find_conversion_rule(x)
+        y = r_d.start + (x-r_s.start)
+        return y
     
+    # fluff and testing
     def __str__(self) -> str:
-        return str(list(map(Conversion_value.__str__,self.__conv_rules)))
+        return str(list(map(Conversion_rule.__str__,self.__conv_rules)))
 
 ########################################################################
 
