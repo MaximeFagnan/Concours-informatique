@@ -58,12 +58,13 @@ class Conversion_map:
         self.__conversion_rules[rule.source] = rule.dest
     
     def find_conversion_rule(self, x: int) -> tuple[range,range] :
-        """for a given value of x, find conversion rule in __conversions dict
+        """
+        for a given value of x, find conversion rule in __conversion_rules dict
         """
         for r_s,r_d in self.__conversion_rules.items():
             if x in r_s: 
                 return (r_s,r_d)
-        return (range(x, x+1),range(x,x+1))
+        return (range(x, x+1),range(x,x+1)) # trivial conversion
 
     def convert(self, x: int) -> int:
         """Convert a value following the map
